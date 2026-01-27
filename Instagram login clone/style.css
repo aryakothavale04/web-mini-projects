@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 350px;
+    height: 590px;
+    border: 1px solid rgb(219,219,219,1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    width: 350px;
+    height: 80px;
+    border: 1px solid rgb(219,219,219,1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.ins{
+    text-align: center;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#p1{
+    margin: 1rem;
+    text-align: center;
+    color: #737373;
+}
+
+#b1{
+    background-color: #4A5FD9;
+    padding: 7px 16px;
+    color: #fff;
+    width: 268px;
+    align-self: center;
+    border-radius: 1rem;
+    border: none;
+}
+
+#b1:hover{
+    background-color: blue;
+}
+
+#or{
+    margin: 1rem;
+    text-align: center;
+    color: #737373;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 259px;
+    height: 20px;
+    padding: 9px 0px 7px 7px;
+    background-color: #f3f5f7;
+    margin: 4px;
+    border: none;
+    align-self: center;
+    box-shadow:0 0 2px black;
+}
+
+form input:hover{
+    box-shadow: 0 0 3px black;
+}
+
+#p2{
+    margin: 0.7rem;
+    text-align: center;
+    color: #737373;
+    font-size: 12px;
+}
+
+#signbt{
+    width: 268px;
+    height: 32px;
+    margin: 8px 40px;
+    background-color: rgb(125, 170, 224);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+#signbt:hover{
+    background-color: #4A5FD9;
+}
+
+.login a{
+    color: blue;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    margin:50px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+}
+
+.footer a{
+    text-decoration: none;
+    margin: 4px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.foot{
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer i{
+    opacity:0.7;
+}
+
+.footer p{
+    opacity: 0.7;
+}
+
+.footer p:hover{
+    opacity: 1;
+}
+
+@media(max-width:400px){
+    .footer{
+        font-size: 8px;
+    }
+}
