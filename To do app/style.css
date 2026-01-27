@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+}
+
+h1{
+    text-decoration: wavy underline;
+    margin: 5px;
+}
+
+input{
+    width: 500px;
+    border: none;
+    margin: 5px;
+    font-family:"Handlee", cursive;
+}
+
+#add {
+    background-color: aquamarine;
+    width: 500px;
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid black;
+}
+
+.delete{
+    background-color: rgb(255, 8, 0);
+    width: 100px;
+    border-radius: 10px;
+    color: antiquewhite;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+
+
